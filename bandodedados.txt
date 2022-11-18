@@ -1,0 +1,9 @@
+CREATE TABLE products(
+ id_products int PRIMARY KEY auto_increment,
+ name varchar(50) NOT NULL,
+ price decimal(10,00) NOT NULL,
+ created date DEFAULT now(),
+ updated date
+ );
+
+SELECT * FROM products;
